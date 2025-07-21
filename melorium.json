@@ -2,50 +2,58 @@
     "version": "0.0.2",
     "presets": [
         {
-            "id": "minimal",
-            "name": "Минимум (для слабых ПК)",
-            "description": "Только самые необходимые моды для лучшей производительности.",
-            "mods": ["jei", "sodium"]
+            "id": "all",
+            "name": "Все Моды",
+            "description": "Все моды доустпные",
+            "mods": "all"
         },
         {
-            "id": "features",
+            "id": "minimum",
+            "name": "Минимум",
+            "description": "Минимум модов для пупсов",
+            "mods": ["sodium"]
+        },
+        {
+            "id": "medium",
             "name": "База",
-            "description": "Рекомендуемые моды с расширением возможностей.",
-            "mods": ["journeymap", "jei", "sodium", "apple-skin"]
+            "description": "конфортное количество модов",
+            "mods": ["sodium"]
         }
     ],
     "mods": [
-    {
-      "id": "journeymap",
-      "name": "JourneyMap",
-      "file": "JourneyMap-1.20.1-5.9.8.jar",
-      "image": "https://cdn.modrinth.com/data/lfHFW1mp/a1c571a21a88f6fa59eab67829f216f65ab393ee_96.webp",
-      "description": "Карта мира с автопрорисовкой, waypoints и т.д.",
-      "enabled": true
-    },
-    {
-      "id": "jei",
-      "name": "Just Enough Items",
-      "file": "jei-1.20.1-14.1.0.10.jar",
-      "image": "https://cdn.modrinth.com/data/u6dRKJwZ/4a3f18ac0d096c9f8e9176984c44be4e58f94c89_96.webp",
-      "description": "Удобный просмотр рецептов предметов.",
-      "enabled": true
-    },
-    {
-      "id": "sodium",
-      "name": "Sodium",
-      "file": "sodium-neoforge-0.6.13+mc1.21.1.jar",
-      "image": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
-      "description": "Оптимизация графики, шейдеры и многое другое.",
-      "enabled": false
-    },
-    {
-      "id": "apple-skin",
-      "name": "AppleSkin",
-      "file": "AppleSkin-mc1.20.1-2.5.0.jar",
-      "image": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
-      "description": "Улучшает отображение еды и сытости.",
-      "enabled": false
-    }
-  ]
+      {
+        "id": "sodium",
+        "name": "Sodium",
+        "file": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
+        "description": "Оптимизация графики, шейдеры и многое другое.",
+        "enabled": true
+      },
+      {
+        "id": "sodium_extra",
+        "name": "Sodium Extra",
+        "file": "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp",
+        "description": "",
+        "enabled": true,
+        "dependsOn": ["sodium"]
+      },
+      {
+        "id": "lithium",
+        "name": "Lithium",
+        "file": "lithium-neoforge-0.15.0+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "iris",
+        "name": "Iris",
+        "file": "iris-neoforge-1.8.12+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+        "description": "",
+        "enabled": true,
+        "dependsOn": ["sodium"]
+      }
+    ]
 }
