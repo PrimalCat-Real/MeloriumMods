@@ -47,6 +47,106 @@
         "enabled": true
       },
       {
+        "id": "ferrit",
+        "name": "FerriteCore",
+        "file": "ferritecore-7.0.2-neoforge.jar",
+        "image": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "immediately_fast",
+        "name": "ImmediatelyFast",
+        "file": "ImmediatelyFast-NeoForge-1.6.6+1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "entity_model_features",
+        "name": "[EMF] Entity Model Features",
+        "file": "entity_model_features_neoforge_1.21.1-2.4.1.jar",
+        "image": "https://cdn.modrinth.com/data/4I1XuqiY/6e5bbd0d06b1741bfdab6c0cfab6de8fdaf0064c_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "entity_texture_features",
+        "name": "[ETF] Entity Texture Features",
+        "file": "entity_texture_features_neoforge_1.21.1-6.2.9.jar",
+        "image": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "controlling",
+        "name": "Controlling",
+        "file": "Controlling-neoforge-1.21.1-19.0.5.jar",
+        "image": "https://cdn.modrinth.com/data/xv94TkTM/bdb6feb3d04ca37da4ed5aa73fef062a39d8b3e5_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "iris_flywheel_compat",
+        "name": "Iris & Oculus Flywheel Compat",
+        "file": "iris-flywheel-compat-NeoForge-2.0.4.jar",
+        "image": "https://cdn.modrinth.com/data/ndHYMY2K/7d3794f7fdc4974ce4386bfc3e0ec27140a33de5.png",
+        "description": "",
+        "dependsOn": ["iris"],
+        "enabled": true
+      },
+      {
+        "id": "colorwheel",
+        "name": "Colorwheel",
+        "file": "colorwheel-neoforge-0.2.3+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/BzHgFoGz/a2808297ead0419d38d9ec23c5c1e594bc757eed_96.webp",
+        "description": "",
+        "dependsOn": ["iris"],
+        "enabled": true
+      },
+      {
+        "id": "colorwheel_patcher",
+        "name": "Colorwheel Patcher",
+        "file": "colorwheel_patcher-neoforge-0.2.4+mc1.21.1.jar",
+        "image": "https://cdn.modrinth.com/data/KPsw5jDu/e572663313f66081a2f98121468b8b1cf555f2ab_96.webp",
+        "description": "",
+        "dependsOn": ["colorwheel"],
+        "enabled": true
+      },
+      {
+        "id": "jade",
+        "name": "Jade",
+        "file": "Jade-1.21.1-NeoForge-15.10.2",
+        "image": "https://cdn.modrinth.com/data/xuDOzCLy/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "jade_addons",
+        "name": "Jade Addons",
+        "file": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+        "image": "https://cdn.modrinth.com/data/xuDOzCLy/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+        "description": "",
+        "dependsOn": ["jade"],
+        "enabled": true
+      },
+      {
+        "id": "overflowing_bars",
+        "name": "Overflowing Bars",
+        "file": "OverflowingBars-v21.1.1-1.21.1-NeoForge.jar",
+        "image": "https://cdn.modrinth.com/data/XD7XOrAF/6ddcbd311d5caae678cb6df60b4d064724088869_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "notenoughanimations",
+        "name": "Not Enough Animations",
+        "file": "notenoughanimations-neoforge-1.10.1-mc1.21.jar",
+        "image": "https://cdn.modrinth.com/data/MPCX6s5C/b97fd5f7a893165052408b747286d6eb38d57abb_96.webp",
+        "description": "",
+        "enabled": true
+      },
+      {
         "id": "iris",
         "name": "Iris",
         "file": "iris-neoforge-1.8.12+mc1.21.1.jar",
