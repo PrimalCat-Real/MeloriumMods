@@ -1,3 +1,8 @@
 Melorium/config/
 Melorium/options.txt
-Melorium/mods/*
+Melorium/mods/*.disabled
+Melorium/mods/sodium-neoforge-0.6.13+mc1.21.1.jar
+Melorium/mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar
+Melorium/mods/lithium-neoforge-0.15.0+mc1.21.1.jar
+Melorium/mods/iris-neoforge-1.8.12+mc1.21.1.jar
+
