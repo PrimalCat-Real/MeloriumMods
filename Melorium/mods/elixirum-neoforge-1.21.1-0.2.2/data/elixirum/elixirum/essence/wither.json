@@ -1,0 +1,8 @@
+{
+  "category": "offensive",
+  "max_amplifier": 4,
+  "max_duration": 300,
+  "mob_effect": "minecraft:wither",
+  "required_ingredients": 3,
+  "required_quality": 10
+}

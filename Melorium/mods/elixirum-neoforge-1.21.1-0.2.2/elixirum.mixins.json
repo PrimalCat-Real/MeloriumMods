@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.obscuria.elixirum.mixin",
+  "refmap": "elixirum.refmap.json",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [
+    "MixinBrewingStandBlockEntity",
+    "MixinBrewingStandMenu_IngredientsSlot",
+    "MixinBrewingStandMenu_PotionSlot",
+    "MixinEntity",
+    "MixinItemStack",
+    "MixinLivingEntity",
+    "server.MixinPlayerList"
+  ],
+  "client": [
+    "client.MixinBrewingStandScreen",
+    "client.MixinClientLevel",
+    "client.MixinHumanoidArmorLayer",
+    "client.MixinMusicManager"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
