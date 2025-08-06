@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "elixirum:item/elixir/shape/skull",
-    "layer1": "elixirum:item/elixir/overlay/skull",
-    "layer2": "elixirum:item/elixir/cap/crown"
-  }
-}

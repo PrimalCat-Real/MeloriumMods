@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "elixirum:item/elixir/shape/tube",
-    "layer1": "elixirum:item/elixir/overlay/tube",
-    "layer2": "elixirum:item/elixir/cap/holy"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "elixirum:item/extract",
-    "layer1": "elixirum:item/extract_overlay"
-  }
-}
